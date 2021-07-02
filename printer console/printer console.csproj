@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>printer_console</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Interop.bpac">
+      <HintPath>..\..\..\..\..\..\Program Files\Brother bPAC3 SDK\Samples\VCS\NamePlt\obj\x64\Debug\Interop.bpac.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
